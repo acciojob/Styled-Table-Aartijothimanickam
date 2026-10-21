@@ -1,1 +1,25 @@
 /* your code */
+table {
+        width: 80%;
+            margin: 20px auto;
+            border-color: black;
+            border-collapse: collapse;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th,td {
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+    font-style: "calibri";
+    border: none;
+}
+th {
+    background-color: rgb(4, 4, 127);
+    color : white; 
+}
+tr:nth-child(odd){
+    background-color: rgb(201, 198, 198);
+    color: black;
+}
